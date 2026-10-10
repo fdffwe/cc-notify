@@ -1,0 +1,41 @@
+{
+  "name": "cc-notify",
+  "version": "0.1.0",
+  "description": "Claude Code 的跨平台桌面通知：需要确认权限或任务完成时弹通知（WSL/Windows、macOS、Linux）",
+  "license": "MIT",
+  "type": "commonjs",
+  "author": "yuannn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuannn/cc-notify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuannn/cc-notify/issues"
+  },
+  "homepage": "https://github.com/yuannn/cc-notify#readme",
+  "bin": {
+    "cc-notify": "bin/cc-notify.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "claude-code",
+    "claude",
+    "notification",
+    "toast",
+    "wsl",
+    "macos",
+    "linux"
+  ]
+}
