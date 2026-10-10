@@ -1,0 +1,32 @@
+{
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "input=$(cat); tool=$(printf '%s' \"$input\" | python3 -c 'import json,sys; print(json.load(sys.stdin).get(\"tool_name\",\"操作\"))' 2>/dev/null); /home/eai/myDemo/NotifyAssistant/notify.sh \"Claude Code 需要确认\" \"${tool:-操作}\"",
+            "timeout": 10,
+            "async": true,
+            "statusMessage": "发送 Windows 通知"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/eai/myDemo/NotifyAssistant/notify.sh \"Claude Code\" \"任务完成\"",
+            "timeout": 10,
+            "async": true,
+            "statusMessage": "发送 Windows 通知"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
