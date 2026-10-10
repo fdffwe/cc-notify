@@ -18,7 +18,7 @@ Claude Code 的跨平台桌面通知工具：需要你确认权限、或任务�
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/yuannn/cc-notify.git
+git clone https://github.com/fdffwe/cc-notify.git
 cd cc-notify
 ```
 

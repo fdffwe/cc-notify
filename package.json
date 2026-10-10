@@ -7,12 +7,12 @@
   "author": "yuannn",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuannn/cc-notify.git"
+    "url": "git+https://github.com/fdffwe/cc-notify.git"
   },
   "bugs": {
-    "url": "https://github.com/yuannn/cc-notify/issues"
+    "url": "https://github.com/fdffwe/cc-notify/issues"
   },
-  "homepage": "https://github.com/yuannn/cc-notify#readme",
+  "homepage": "https://github.com/fdffwe/cc-notify#readme",
   "bin": {
     "cc-notify": "bin/cc-notify.js"
   },
